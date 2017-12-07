@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+  - name:  ping to your machine, to ensure you can connect
+    ping:
